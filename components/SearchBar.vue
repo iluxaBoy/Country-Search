@@ -1,10 +1,9 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const { countrys } = useAvailableCountries()
-const countryData = ref(countrys)
+const { countries } = useAvailableCountries()
+const countryData = ref(countries)
 const search = ref('')
-const temp = ref(true)
 </script>
 
 <template>

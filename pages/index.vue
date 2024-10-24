@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div style="display: flex">
         <SearchBar />
+        <Random />
     </div>
 </template>
