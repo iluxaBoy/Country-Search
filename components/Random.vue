@@ -1,7 +1,10 @@
 <script lang="ts" setup>
-const { random } = useApiData()
+import { ref } from 'vue'
+
+const { random } = useAvailableCountries()
+const randomData = ref(random)
 </script>
 
 <template>
-
+    <div></div>
 </template>
