@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const { countrys } = useApiData()
+const { countrys } = useAvailableCountries()
 const countryData = ref(countrys)
 const search = ref('')
 const temp = ref(true)
