@@ -1,10 +1,10 @@
 <script lang="ts" setup>
+import { ref } from 'vue'
+
 const { random } = useAvailableCountries()
-const randomData = random
+const randomData = ref(random)
 </script>
 
 <template>
-    <div>
-        
-    </div>
+    <div></div>
 </template>
